@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function loadAjax(params){
+           constxhttp=new XMLHttpRequest();
+           xhttp.onload=function(){
+            document.getElementById("demo").innerHTML=this.responseText;
+            xhttp
+           }
+            
+      
+        }
+        
+<body>
+    <p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, assumenda reprehenderit! Perspiciatis ut, neque, porro excepturi exercitationem unde iusto molestias aliquam deleniti suscipit consequuntur maiores alias ad assumenda natus eum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda maxime doloremque sed sit qui illo non? Nostrum sapiente, veniam recusandae est facere illum aperiam, esse iusto perferendis adipisci inventore consequatur.
+<button onclick="loadAjax()"> Load Document</button>
+    </p>
+</body>
+</script>
+</head>
+</html>
